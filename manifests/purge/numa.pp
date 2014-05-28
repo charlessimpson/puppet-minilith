@@ -1,4 +1,4 @@
-class minilith::disable::numa {
+class minilith::purge::numa {
   package {[
     'libtopology',
     'numactl',

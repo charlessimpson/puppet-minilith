@@ -1,4 +1,4 @@
-class minith::disable::wireless {
+class minith::purge::wireless {
   package { [
     'atmel-firmware',
     'b43-openfwwf',

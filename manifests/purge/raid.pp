@@ -1,4 +1,4 @@
-class minilith::disable::raid {
+class minilith::purge::raid {
   package { [
     'dmraid',
     'dmraid-events',

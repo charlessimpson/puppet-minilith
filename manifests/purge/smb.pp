@@ -1,4 +1,4 @@
-class minilith::disable::smb {
+class minilith::purge::smb {
   package { [
     'samba4-libs',
     'samba-client',

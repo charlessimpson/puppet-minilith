@@ -1,4 +1,4 @@
-class minilith::disable::abrt {
+class minilith::purge::abrt {
   package { [
     'abrt',
     'abrt-addon-ccpp',

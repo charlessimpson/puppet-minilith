@@ -1,4 +1,4 @@
-class minilith::disable::nfs {
+class minilith::purge::nfs {
   package { [
     'nfs4-acl-tools',
     'nfs-utils',

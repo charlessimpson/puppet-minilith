@@ -1,4 +1,4 @@
-class minilith::disable::lvm {
+class minilith::purge::lvm {
   package { [
     'cryptsetup-luks',
     'cryptsetup-luks-libs',
