@@ -4,7 +4,8 @@ class minilith::timezone($zone = "UTC") {
     target => "/usr/share/zoneinfo/${zone}",
   }
 
-  augeas { '/files/etc/sysconfig/clock':
+  augeas { '/etc/sysconfig/clock':
+    context => '/files/etc/sysconfig/clock',
     changes => "set ZONE \"${zone}\"",
   }
 }

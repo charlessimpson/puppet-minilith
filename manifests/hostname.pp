@@ -1,7 +1,8 @@
 class minilith::hostname($hostname = $::fqdn) {
 
   # Red Hat style
-  augeas { '/files/etc/sysconfig/network':
+  augeas { '/etc/sysconfig/network':
+    context => '/files/etc/sysconfig/network',
     changes => "set HOSTNAME \"${hostname}\"",
   }
 
