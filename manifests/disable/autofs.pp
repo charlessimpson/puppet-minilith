@@ -3,6 +3,6 @@ class minilith::disable::autofs {
     'autofs',
     ]:
     ensure => 'stopped',
-    enable => 'false',
+    enable => false,
   }
 }

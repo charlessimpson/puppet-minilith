@@ -1,4 +1,4 @@
-class minilith::timezone($zone = "UTC") {
+class minilith::timezone($zone = 'UTC') {
   file { '/etc/localtime':
     ensure => 'link',
     target => "/usr/share/zoneinfo/${zone}",

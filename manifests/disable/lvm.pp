@@ -3,6 +3,6 @@ class minilith::disable::lvm {
     'lvm2-monitor',
     ]:
     ensure => 'stopped',
-    enable => 'false',
+    enable => false,
   }
 }

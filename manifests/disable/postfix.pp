@@ -3,6 +3,6 @@ class minilith::disable::postfix {
     'postfix',
     ]:
     ensure => 'stopped',
-    enable => 'false',
+    enable => false,
   }
 }

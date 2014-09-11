@@ -4,6 +4,6 @@ class minilith::disable::netfs {
 
   service { 'netfs':
     ensure => 'stopped',
-    enable => 'false',
+    enable => false,
   }
 }
